@@ -65,5 +65,8 @@ On my computer, I see (but your version numbers may differ):
 [✓] matplotlib    2.2.2
 [✓] notebook      5.4.0
 ```
-
 **If you do not have a working setup, please contact the instructors.**
+
+## How to create a new environment
+conda env create -f environment.yml
+
