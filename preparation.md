@@ -21,8 +21,22 @@ required packages installed in order to participate fully.
   - `scipy` >= 1.0
   - `matplotlib` >= 2.1
   - `scikit-image` >= 0.15
+  - `itk` >= 4.1
 
   Please see "Test your setup" below.
+
+- **ITK**
+
+  ITK is an open-source toolkit for multidimensional image analysis.
+  If you are using Anaconda, it is easy to install ITK using the
+  [conda-forge](https://conda-forge.org/) repository, through the
+  following command:
+
+  `$ conda install -c conda-forge itk`
+
+  You can also use the PyPI package:
+
+  `$ pip3 install --upgrade itk`
 
 - Jupyter
 
@@ -51,6 +65,24 @@ required packages installed in order to participate fully.
 We may make editorial corrections to the material until the day before
 the workshop, so please execute `git pull` to update.
 
+## Using a conda environment
+
+We created the file `environment.yml`, available on the lecture material, to ease
+the process of creating an environment ready for this tutorial. For doing that, you
+can use the command `conda env`:
+
+`$ conda env create -f environment.yml`
+
+Then, to activate this environment,
+
+` $ conda activate imagexd19_skimage`
+
+To come back to your master environment,
+
+`$ conda activate`
+
+More on conda environments at: [[conda's user guide]](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
 ## Test your setup
 
 Please switch into the repository you downloaded in the previous step,
@@ -66,7 +98,3 @@ On my computer, I see (but your version numbers may differ):
 [✓] notebook      5.4.0
 ```
 **If you do not have a working setup, please contact the instructors.**
-
-## How to create a new environment
-conda env create -f environment.yml
-
