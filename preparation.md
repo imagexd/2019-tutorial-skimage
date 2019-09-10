@@ -68,7 +68,7 @@ the workshop, so please execute `git pull` to update.
 ## Using a conda environment
 
 We created the file `environment.yml`, available on the repository you cloned
-on the last step, to ease the process of creating an environment ready for this
+during the last step, to ease the process of creating an environment ready for this
 tutorial. To use this environment, you can use the command `conda env`:
 
 `$ conda env create -f environment.yml`
