@@ -68,16 +68,16 @@ the workshop, so please execute `git pull` to update.
 ## Using a conda environment
 
 We created the file `environment.yml`, available on the lecture material, to ease
-the process of creating an environment ready for this tutorial. For doing that, you
-can use the command `conda env`:
+the process of creating an environment ready for this tutorial. To use this environment,
+you can use the command `conda env`:
 
 `$ conda env create -f environment.yml`
 
-Then, to activate this environment,
+Then, to activate it,
 
 ` $ conda activate imagexd19_skimage`
 
-To come back to your master environment,
+To come back to your master environment, use
 
 `$ conda activate`
 
