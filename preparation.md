@@ -2,13 +2,13 @@
 
 ## Format
 
-The tutorial consists of lecture segments, followed by hands-on
-exercises.  We *strongly encourage* you to bring a laptop with all the
-required packages installed in order to participate fully.
+The tutorial consists of lecture segments followed by hands-on
+exercises.  We *strongly encourage* you to bring a laptop with all
+required packages installed in order to fully participate.
 
 ## Software required
 
-- Python
+- **Python**
 
   If you are new to Python, please install the
   [Anaconda distribution](https://www.continuum.io/downloads) for
@@ -36,9 +36,9 @@ required packages installed in order to participate fully.
 
   You can also use the PyPI package:
 
-  `$ pip3 install --upgrade itk`
+  `$ pip3 install --upgrade itk**
 
-- Jupyter
+- **Jupyter**
 
   The lecture material includes Jupyter notebooks.  Please follow the
   [Jupyter installation instructions](http://jupyter.readthedocs.io/en/latest/install.html),
@@ -49,7 +49,7 @@ required packages installed in order to participate fully.
   4.4.0
   ```
 
-  Also activate Jupyter Widgets:
+  Please also activate Jupyter Widgets:
 
   ```
   pip install -q ipywidgets
@@ -67,9 +67,9 @@ the workshop, so please execute `git pull` to update.
 
 ## Using a conda environment
 
-We created the file `environment.yml`, available on the lecture material, to ease
-the process of creating an environment ready for this tutorial. To use this environment,
-you can use the command `conda env`:
+We created the file `environment.yml`, available on the repository you cloned
+on the last step, to ease the process of creating an environment ready for this
+tutorial. To use this environment, you can use the command `conda env`:
 
 `$ conda env create -f environment.yml`
 
@@ -81,7 +81,7 @@ To come back to your master environment, use
 
 `$ conda activate`
 
-More on conda environments at: [[conda's user guide]](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+More on conda environments at the [conda's user guide](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Test your setup
 
