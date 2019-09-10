@@ -1,0 +1,2 @@
+# Ignoring some files and folders on git.
+./ipynb_checkpoints
