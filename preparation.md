@@ -36,7 +36,7 @@ required packages installed in order to fully participate.
 
   You can also use the PyPI package:
 
-  `$ pip3 install --upgrade itk**
+  `$ pip3 install --upgrade itk`
 
 - **Jupyter**
 
