@@ -10,7 +10,7 @@ Please prepare for the tutorial by [installing the pre-requisite
 software](preparation.md) beforehand.
 
 If you could not successfully set up an environment, you may also
-access the material via:
+access the material via MyBinder:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/imagexd/2019-tutorial-skimage/master)
 
