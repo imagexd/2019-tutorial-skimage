@@ -13,5 +13,4 @@ dependencies:
   - joblib >= 0.12
   - jupyter_client >= 5.1.0
   - pandas >= 0.20.3
-  - scikit-learn >= 0.19.1
   - widgetsnbextension >= 3.5.1
