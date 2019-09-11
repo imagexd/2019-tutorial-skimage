@@ -203,7 +203,7 @@ def plot_3d_surface(data, labels, region=3, spacing=(1.0, 1.0, 1.0)):
 
 def results_from_part_1():
 
-    data = io.imread("images/cells.tif")
+    data = io.imread("data/cells.tif")
 
     vmin, vmax = np.percentile(data, q=(0.5, 99.5))
     rescaled = exposure.rescale_intensity(
