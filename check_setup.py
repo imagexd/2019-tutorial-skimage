@@ -34,7 +34,10 @@ for (pkg, version_wanted) in reqs:
             status = 'X'
 
     if m is not None:
-        version_installed = m.__version__
+        if pkg == 'itk':
+            version_installed = m.Version.GetITKVersion()
+        else:
+            version_installed = m.__version__
         if LooseVersion(version_wanted) > LooseVersion(version_installed):
             status = 'X'
     print('[{}] {:<11} {}'.format(
